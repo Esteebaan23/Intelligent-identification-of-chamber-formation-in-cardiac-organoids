@@ -243,7 +243,6 @@ class HybridResNetViT(nn.Module):
 
 
 def train_model(model, train_loader, val_loader, save_path, num_epochs=10):
-    flag = 0
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
 
@@ -293,21 +292,12 @@ def train_model(model, train_loader, val_loader, save_path, num_epochs=10):
             best_acc = val_acc
             best_f1 = f1
             torch.save(model.state_dict(), save_path)
-            if (best_acc > 0.85 and best_f1 > 0.85):
-                flag = 1
-                print("Flag = 1")
             print(f"✅ Saved best model with val acc: {val_acc:.4f}")
 
         torch.cuda.empty_cache()
 
-
-
     df = pd.DataFrame(history)
     df.to_excel(save_path.replace('.pth', '_history.xlsx'), index=False)
-    if (flag == 1):
-        os.system("python3 Analysis2.py")
-    else:
-        os.system("python3 Hybrid.py")
 
 
 from sklearn.metrics import precision_score, recall_score, f1_score

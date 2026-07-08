@@ -109,8 +109,6 @@ Outputs:
 - `best_model_{CHANNEL}.pth` — best checkpoint (saved when val accuracy **and** F1 both improve)
 - `best_model_{CHANNEL}_history.xlsx` — per-epoch metrics (loss, accuracy, precision, recall, F1)
 
-If the model reaches val accuracy > 0.85 **and** F1 > 0.85, `Analysis2.py` is launched automatically; otherwise `Hybrid.py` is launched.
-
 ---
 
 ## Running evaluation

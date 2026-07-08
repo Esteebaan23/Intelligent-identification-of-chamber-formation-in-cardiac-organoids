@@ -85,7 +85,7 @@ Per image, inside `results/{Chamber Forming | Chamber Nonforming}/{image_name}/`
 | `gradcam.png`                | Grad-CAM heatmap overlaid on cleaned image               |
 | `vit.png`                    | ViT attention map overlaid on cleaned image              |
 | `combined.png`               | Average of Grad-CAM + ViT attention overlaid             |
-| `composite5_pred[0|1].png`   | 5-panel figure: Original · Cleaned · Grad-CAM · ViT · Combined |
+| `composite5_pred.png`        | 5-panel figure: Original · Cleaned · Grad-CAM · ViT · Combined |
 
 Global summary: `results/results.xlsx`
 

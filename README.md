@@ -37,8 +37,8 @@ Deep learning pipeline for the analysis of cardiac organoid microscopy images. T
 Clone the repository:
 
 ```bash
-git clone <REPOSITORY_URL>
-cd <repo-name>
+git clone https://github.com/Esteebaan23/Intelligent-identification-of-chamber-formation-in-cardiac-organoids.git
+cd Intelligent-identification-of-chamber-formation-in-cardiac-organoids
 ```
 
 Create a virtual environment and install dependencies:
@@ -79,7 +79,7 @@ BASE_DIR/
 ### 1. Classifier (`classification/`)
 
 ```bash
-cd classification
+cd Classification
 python train.py      # trains best_model_{CHANNEL}.pth
 python evaluate.py   # evaluates on the 20% held-out split
 ```
@@ -91,7 +91,7 @@ python evaluate.py   # evaluates on the 20% held-out split
 ### 2. Virtual staining / GAN (`staining/`)
 
 ```bash
-cd staining
+cd Staining
 python train.py      # trains best_model_forming.keras or best_model_nonforming.keras
 python evaluate.py
 ```
@@ -122,7 +122,7 @@ And place the CH3 images to process in `inference/input/` (or `inference/input/C
 Run the full pipeline:
 
 ```bash
-cd inference
+cd Chamber_Aware_Inference
 python Chamber_Aware_Framework.py
 ```
 

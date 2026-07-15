@@ -11,7 +11,7 @@ Deep learning pipeline for the analysis of cardiac organoid microscopy images. T
 ## Pipeline overview
 
 <p align="center">
-  <img src="assets/pipeline_overview.png" alt="Pipeline overview" width="80%">
+  <img src="assets/pipeline_overview.svg" alt="Pipeline overview" width="80%">
 </p>
 
 ---

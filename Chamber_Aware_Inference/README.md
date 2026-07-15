@@ -48,10 +48,10 @@ System/
 | File                                    | Used by            |
 |-----------------------------------------|--------------------|
 | `best_model_CH3.pth`                    | Classification     |
-| `CH1_ResUNet_forming_model.keras`       | Colorization       |
-| `CH1_ResUNet_nonforming_model.keras`    | Colorization       |
-| `CH2_ResUNet_forming_model.keras`       | Colorization       |
-| `CH2_ResUNet_nonforming_model.keras`    | Colorization       |
+| `CH1_ResUNet_forming_model.keras`       | Staining       |
+| `CH1_ResUNet_nonforming_model.keras`    | Staining       |
+| `CH2_ResUNet_forming_model.keras`       | Staining       |
+| `CH2_ResUNet_nonforming_model.keras`    | Staining       |
 
 ---
 

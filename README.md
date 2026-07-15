@@ -8,14 +8,22 @@ Deep learning pipeline for the analysis of cardiac organoid microscopy images. T
 
 ---
 
+## Pipeline overview
+
+![Pipeline overview](assets/pipeline_overview.png)
+
+---
+
 ## Repository structure
 
 ```
 .
-├── Classification/          # Training/evaluation of the hybrid ResNet+ViT classifier
+├── assets/
+│   └── pipeline_overview.png  # diagram referenced in this README
+├── classification/          # Training/evaluation of the hybrid ResNet+ViT classifier
 │   ├── train.py
 │   └── evaluate.py
-├── Staining/                 # Training/evaluation of the virtual staining GAN
+├── staining/                 # Training/evaluation of the virtual staining GAN
 │   ├── train.py
 │   └── evaluate.py
 ├── Chamber_Aware_Inference/                 # Chamber-Aware Framework (two-stage pipeline)
@@ -154,3 +162,4 @@ Global summaries: `results/results.xlsx` and `results/colorization_results.xlsx`
 | Staining (GAN)    | U-Net with CBAM + residual bottleneck (generator) + PatchGAN (discriminator)   |
 
 Detailed documentation for each component (hyperparameters, CLAHE/RemoveBrightBorderFlood preprocessing, image formats) is available in the `classification/` and `staining/` READMEs respectively.
+

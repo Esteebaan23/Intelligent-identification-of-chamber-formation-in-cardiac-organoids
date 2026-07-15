@@ -1,0 +1,19 @@
+# --- Clasificación (ResNet50 + DeiT3) ---
+torch
+torchvision
+timm
+
+# --- Staining virtual / GAN ---
+tensorflow
+
+# --- Comunes a ambos pipelines + inferencia ---
+opencv-python
+Pillow
+numpy
+pandas
+scikit-learn
+tqdm
+matplotlib
+seaborn
+openpyxl
+scipy

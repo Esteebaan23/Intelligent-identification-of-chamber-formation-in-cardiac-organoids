@@ -12,13 +12,13 @@ Deep learning pipeline for the analysis of cardiac organoid microscopy images. T
 
 ```
 .
-├── classification/          # Training/evaluation of the hybrid ResNet+ViT classifier
+├── Classification/          # Training/evaluation of the hybrid ResNet+ViT classifier
 │   ├── train.py
 │   └── evaluate.py
-├── staining/                 # Training/evaluation of the virtual staining GAN
+├── Staining/                 # Training/evaluation of the virtual staining GAN
 │   ├── train.py
 │   └── evaluate.py
-├── inference/                 # Chamber-Aware Framework (two-stage pipeline)
+├── Chamber_Aware_Inference/                 # Chamber-Aware Framework (two-stage pipeline)
 │   ├── Chamber_Aware_Framework.py
 │   ├── Classification.py
 │   ├── Staining.py
@@ -29,7 +29,6 @@ Deep learning pipeline for the analysis of cardiac organoid microscopy images. T
 └── README.md
 ```
 
-> Note: this assumes each component lives in its own top-level folder. Adjust the folder names above if your actual repo layout differs from the three original component READMEs.
 
 ---
 

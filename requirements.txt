@@ -1,4 +1,4 @@
-# --- Clasificación (ResNet50 + DeiT3) ---
+# --- Classification (ResNet50 + DeiT3) ---
 torch
 torchvision
 timm
@@ -6,7 +6,6 @@ timm
 # --- Staining virtual / GAN ---
 tensorflow
 
-# --- Comunes a ambos pipelines + inferencia ---
 opencv-python
 Pillow
 numpy

@@ -28,8 +28,8 @@ TEST_SIZE = 0.2
 CLASS_TO_EVAL = "forming"
 
 MODEL_PATHS = {
-    "forming": "best_model_forming.keras",
-    "nonforming": "best_model_nonforming.keras",
+    "forming": "best_model_forming_CH1.keras",
+    "nonforming": "best_model_nonforming_CH1.keras",
 }
 
 OUT_DIR = "val_staining_reports"

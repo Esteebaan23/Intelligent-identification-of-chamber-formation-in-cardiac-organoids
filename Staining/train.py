@@ -342,8 +342,8 @@ NONFORMING_EPOCHS = 300
 FORMING_EPOCHS = 300
 BATCH_SIZE = 8
 
-NONFORMING_MODEL_OUT = "best_model_nonforming.keras"
-FORMING_MODEL_OUT = "best_model_forming.keras"
+NONFORMING_MODEL_OUT = "best_model_nonforming_CH1.keras"
+FORMING_MODEL_OUT = "best_model_forming_CH1.keras"
 
 CLASS_TO_TRAIN = "forming"
 

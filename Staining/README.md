@@ -43,7 +43,7 @@ block at the bottom of `train.py` and the constants block at the top of
 | Color     | RGB or grayscale (grayscale is stacked to 3ch)                              |
 | Size      | Any — resized to **256 × 256** before training/inference                    |
 | Bit depth | 8-bit recommended; 16-bit will be read by PIL                               |
-| Naming    | Input (CH3) and target files must correspond: the target file must have the same filename as its CH3 counterpart with `CH3` swapped for the target channel (e.g. `Image_XY35_CH3.tif` → `Image_XY35_CH1.tif`), so pairs can be matched. |
+| Naming    | The image filenames are used to match the input (CH3) and target (CH1/CH2) images. The target file must have the same filename as its CH3 counterpart with `CH3` swapped for the target channel (e.g. `Image_XY35_CH3.tif` → `Image_XY35_CH1.tif`), so pairs can be matched. |
 
 ---
 

@@ -104,7 +104,7 @@ Global summary: `results/results.xlsx`
 
 ## Stage 2 — Colorization outputs
 
-Per image, saved into results/generated/<channel>/ (one subfolder per channel)
+Per image, saved into `results/generated/<channel>/` (one subfolder per channel)
 
 | File                               | Description                                       |
 |------------------------------------|---------------------------------------------------|

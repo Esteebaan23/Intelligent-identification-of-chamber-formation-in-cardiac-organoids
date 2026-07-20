@@ -112,7 +112,7 @@ python evaluate.py
 
 ---
 
-## Inference (`inference/`)
+## Inference (`Chamber_Aware_Inference/`)
 
 The Chamber-Aware Framework runs both stages in sequence on new images.
 
@@ -121,10 +121,10 @@ The Chamber-Aware Framework runs both stages in sequence on new images.
 ```
 Files/
 ├── best_model_CH3.pth
-├── CH1_ResUNet_forming_model.keras
-├── CH1_ResUNet_nonforming_model.keras
-├── CH2_ResUNet_forming_model.keras
-└── CH2_ResUNet_nonforming_model.keras
+├── best_model_forming_CH1.keras (Chamber Forming)
+├── best_model_forming_CH2.keras (Chamber Forming)
+├── best_model_forming_CH1.keras (Chamber  Non-Forming)
+└── best_model_forming_CH2.keras (Chamber Non-Forming)
 ```
 
 And place the CH3 images to process in `inference/input/` (or `inference/input/CH3/`). Accepted formats: `.tif`, `.tiff`, `.png`, `.jpg`, `.jpeg`; the filename must contain `CH3`.
